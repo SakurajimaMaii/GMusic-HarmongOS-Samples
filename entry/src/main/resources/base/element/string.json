@@ -1,0 +1,32 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "韵礼音乐"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Tablet_Empty Feature Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "music_name",
+      "value": "音乐名"
+    },
+    {
+      "name": "music_data",
+      "value": "音乐路径"
+    },
+    {
+      "name": "music_duration",
+      "value": "音乐时长"
+    },
+    {
+      "name": "music_artist",
+      "value": "音乐作曲家"
+    }
+  ]
+}

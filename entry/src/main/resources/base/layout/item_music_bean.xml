@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:padding="10vp"
+    ohos:orientation="horizontal">
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="0vp"
+        ohos:weight="3"
+        ohos:orientation="vertical">
+        <Text
+            ohos:id="$+id:music_name_tv"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:music_name"
+            ohos:text_size="20fp"
+            ohos:text_color="$color:color_white"/>
+        <Text
+            ohos:id="$+id:music_artists_tv"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text="$string:music_artist"
+            ohos:text_size="10fp"
+            ohos:text_color="$color:color_white"/>
+    </DirectionalLayout>
+    <Text
+        ohos:id="$+id:music_duration_tv"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="$string:music_duration"
+        ohos:text_size="10fp"
+        ohos:layout_alignment="right|bottom"
+        ohos:text_color="$color:color_white"/>
+</DirectionalLayout>

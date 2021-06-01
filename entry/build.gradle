@@ -1,0 +1,37 @@
+apply plugin: 'com.huawei.ohos.hap'
+apply plugin: 'com.huawei.ohos.decctest'
+ohos {
+    signingConfigs {
+        debug {
+            storeFile file('D:\\HarmongKey\\yunlimusic\\yunlimusicapp.p12')
+            storePassword '0000001C6411D0C2058833EB7BCD88966A07DA47EFB266C39B467FD2DCFD424B271723500FA19136F77A97A2'
+            keyAlias = 'yunlimusicapp'
+            keyPassword '0000001C2092A29411890EB59E430756D4F707BC6FCEF19609C5647B77195FF5FC86B5A41119F58D4F2DD5A9'
+            signAlg = 'SHA256withECDSA'
+            profile file('D:\\HarmongKey\\yunlimusic\\韵礼音乐调试Debug.p7b')
+            certpath file('D:\\HarmongKey\\yunlimusic\\韵礼音乐调试发布.cer')
+        }
+    }
+    compileSdkVersion 5
+    defaultConfig {
+        compatibleSdkVersion 5
+    }
+    buildTypes {
+        release {
+            proguardOpt {
+                proguardEnabled false
+                rulesFiles 'proguard-rules.pro'
+            }
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.har'])
+    testImplementation 'junit:junit:4.13'
+    ohosTestImplementation 'com.huawei.ohos.testkit:runner:1.0.0.100'
+}
+decc {
+    supportType = ['html', 'xml']
+}

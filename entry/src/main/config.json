@@ -1,0 +1,68 @@
+{
+  "app": {
+    "bundleName": "com.gcode.yunlimusic",
+    "vendor": "gcode",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    },
+    "apiVersion": {
+      "compatible": 5,
+      "target": 5,
+      "releaseType": "Release"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.gcode.yunlimusic",
+    "name": ".MyApplication",
+    "deviceType": [
+      "tablet"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry"
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.gcode.yunlimusic.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:app_name",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "reason": "用于读取本地音乐(use for play music)",
+        "usedScene":
+        {
+          "ability": ["com.gcode.musicsample.MainAbility"],
+          "when": "always"
+        }
+      },{
+        "name": "ohos.permission.MEDIA_LOCATION",
+        "reason": "use for play music",
+        "usedScene":
+        {
+          "ability": ["com.gcode.musicsample.MainAbility"],
+          "when": "always"
+        }
+      }
+    ]
+  }
+}

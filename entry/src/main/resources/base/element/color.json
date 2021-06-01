@@ -1,0 +1,20 @@
+{
+  "color": [
+    {
+      "name": "color_black",
+      "value": "#000000"
+    },
+    {
+      "name": "color_white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "color_city_lights",
+      "value": "#dfe6e9"
+    },
+    {
+      "name": "color_carmine_pink",
+      "value": "#eb4d4b"
+    }
+  ]
+}
