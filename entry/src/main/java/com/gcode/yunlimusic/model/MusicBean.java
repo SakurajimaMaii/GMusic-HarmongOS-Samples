@@ -1,6 +1,20 @@
-package com.gcode.yunlimusic.model;
+/*
+ * Copyright 2022 Vast Gui guihy2019@gmail.com
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
 
-import java.util.Locale;
+package com.gcode.yunlimusic.model;
 
 public class MusicBean {
     private int id;
@@ -20,9 +34,9 @@ public class MusicBean {
      * @param song
      * @param data     music_path
      * @param duration music_duration
-     * @param artist music_artist
+     * @param artist   music_artist
      */
-    public MusicBean(int id, String title, String song, String data, String duration,String artist,String album) {
+    public MusicBean(int id, String title, String song, String data, String duration, String artist, String album) {
         this.id = id;
         this.title = title;
         this.song = song;

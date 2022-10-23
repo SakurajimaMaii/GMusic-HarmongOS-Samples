@@ -1,4 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2022 Vast Gui guihy2019@gmail.com
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
 <vector xmlns:ohos="http://schemas.huawei.com/res/ohos" ohos:width="40vp" ohos:height="40vp" ohos:viewportWidth="1024" ohos:viewportHeight="1024">
     <path
         ohos:pathData="M64.29,526.51l0,-28.01c0.26,-1.96 0.52,-3.92 0.76,-5.89 2.85,-23.62 4.17,-47.55 8.83,-70.81 14.08,-70.29 44,-133.5 88.96,-189.41 48.5,-60.32 108.58,-105.31 180.2,-134.7 42.82,-17.57 87.36,-28.18 133.58,-31.55 7.62,-0.55 15.24,-1.22 22.86,-1.84l25.01,0c2.3,0.27 4.59,0.68 6.9,0.77 40.86,1.63 80.75,8.75 119.57,21.53 82.52,27.16 151.68,74.25 206.79,141.31 58.52,71.21 91.91,153 100.17,244.95 3.84,42.79 1.5,85.24 -6.87,127.33 -9.79,49.27 -27.45,95.58 -53.04,138.81 -42.44,71.68 -100.25,127.66 -173.5,167.2 -75.27,40.63 -155.9,57.84 -241.33,52.55 -43.02,-2.66 -84.96,-10.9 -125.16,-26.3 -124.02,-47.53 -211.67,-132.78 -262.12,-255.75 -16.8,-40.94 -26.38,-83.74 -29.72,-127.9C65.61,541.38 64.92,533.94 64.29,526.51L64.29,526.51zM512.17,904.4c217.75,-0.73 392.28,-176.01 392,-392.37 -0.27,-217.23 -175.27,-391.65 -391.83,-391.89 -216.51,-0.24 -392.08,175.2 -392.26,391.96C119.92,728.49 295.69,904.36 512.17,904.4L512.17,904.4zM512.17,904.4"
