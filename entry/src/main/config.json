@@ -17,7 +17,7 @@
     "package": "com.gcode.yunlimusic",
     "name": ".MyApplication",
     "deviceType": [
-      "tablet"
+      "phone","tablet"
     ],
     "distro": {
       "deliveryWithInstall": true,

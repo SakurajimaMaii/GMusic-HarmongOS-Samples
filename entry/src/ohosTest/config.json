@@ -17,7 +17,7 @@
     "package": "com.gcode.yunlimusic",
     "name": "testModule",
     "deviceType": [
-      "tablet"
+      "phone","tablet"
     ],
     "distro": {
       "deliveryWithInstall": true,
@@ -35,6 +35,17 @@
         "orientation": "landscape",
         "visible": true,
         "type": "page"
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.READ_MEDIA",
+        "reason": "$string:permission_reason",
+        "usedScene":
+        {
+          "ability": ["com.gcode.ability"],
+          "when": "always"
+        }
       }
     ]
   }
